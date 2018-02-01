@@ -4,12 +4,11 @@ import java.awt.*;
 import java.applet.*;
 
 public class NegatieveWaarde extends Applet{
-    int a;
     int b;
     int c;
 
     public void init(){
-        a = 2147483646;
+        int a = 2147483646;
         b = 2;
         c = a + b;
     }
